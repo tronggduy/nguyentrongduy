@@ -1,0 +1,271 @@
+/* CSS Document */
+header{
+	width :100%;height: 60px;background-color: rgba( 255,255,255,0.80);
+	box-shadow: 5px 5px 5px lightgray;position: fixed;left: 0;top: 0;z-index: inherit
+}
+.logo{
+	padding-top:12px;
+}
+.menu ul{
+	margin: 0; padding: 0; list-style: none;display: flex
+}
+.menu{
+	padding-top: 20px;
+	
+}
+.menu ul li a{
+	padding: 8px 20px; border-radius: 20px;
+}
+.menu ul li a:hover{
+	background-color:  rgba(245,165,167,1.00);color: white;
+}
+#home{
+	width: 100%;min-height: 800px; padding-top: 80px; background: url(" ../img/bg-header.png"),url( "../img/profile.jpg");background-repeat: no-repeat; background-position: left 0 top 0,right 0 bottom 0
+}
+#hone h1{
+	color: black; font-size: 40px;
+}
+#about{
+	width: 100%;min-height: 900px; padding-top: 80px; 
+}
+#about .so{
+	font-size: 120px;font-weight: bold;color: black;padding: 0 5px;
+}
+#about .year{
+	letter-spacing: 25px;
+}
+#skill{
+	width: 100%;min-height: 900px; padding-top: 80px; 
+}
+.text-big{font-size: 48px}
+.progress{
+	height: 17px;width: 100%;background-color: #BB8A8B;border-radius: 15px;overflow: hidden
+}
+.bar{
+	height: 17px;border-radius: 15px;color: white;text-align: center
+}
+
+#skill .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+#skill .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+#skill .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#skill .tab button.active {
+  background-color: #991DD8; color: white
+}
+
+/* Style the tab content */
+#skill .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}#skill .tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+#skill .tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+#skill .tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+#skill .tab button.active {
+  background-color: #991DD8; color: white
+}
+
+/* Style the tab content */
+#skill .tabcontent {
+  display: none;
+  padding: 6px 12px;
+  
+  border-top: none;
+}
+#service{
+	width: 100%;min-height: 900px; padding-top: 80px; 
+}
+#service .service{
+	width: 100%;height: 150px;display: flex
+}
+#service .icon{
+	width: 180px;height: 150px;border: 1px solid black;display: flex;justify-content: center;align-items: center
+}
+#service .icon i{
+	font-size: 40px;color:black;transition:all 0.7s
+}
+#service .icon img{
+color: aqua;transition: all 0.7s;height: auto;width: 40px;
+}
+#service .service-text{
+	width: 100%;padding: 10px;height: 150px;transform: ease 0.7s
+}
+#service .service:hover .icon i{
+	width: 60px
+}
+#service .service:hover .icon img{
+	width: 60px
+}
+#service .service:hover .service-text{ 
+	background-color: aqua;color: white
+}
+#service .service:hover .service-text h4{
+	color: #AD3537
+}
+#projects{
+	width: 100%;min-height: 900px; padding-top: 80px; }
+#projects .box{
+	display: flex;justify-content: space-between;align-items: center;
+}
+/* Style the tab */
+#projects .tab {
+  
+}
+
+/* Style the buttons inside the tab */
+#projects .tab button {
+  background: none;
+  border: 2px solid white;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 5px; margin-left: 15px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+#projects .tab button:hover {
+border-bottom: 2px solid #E477DC;color:#E477DC; 
+}
+
+/* Create an active/current tablink class */
+#projects .tab button.active {
+ border-bottom: 2px #8621A7; color: #8621A7;
+}
+
+/* Style the tab content */
+#projects .tabcontent2 {
+  display: none;
+  padding: 6px 12px;
+ 
+  border-top: none;
+}
+
+#testimonial{
+	width: 100%;min-height: 600px; padding-top: 80px;
+}
+#testimonial .client img{ width: 100px; height: 100px;border-radius: 50% }
+#testimonial .vien{ width: 100px; height: 100px;border-radius: 50%;padding: 7px;border: 1px solid blue}
+#testimonial .client{ text-align: center;display: flex;flex-direction: column;justify-content: center;align-items: center;padding: 7px;
+border: 1px solid blue}
+#buoi7 .owl-dots{ position:absolute; bottom: -10px; left:45%;}
+#buoi7 .owl-dots .owl-dot span {
+      width: 12px;
+      height: 12px; 	
+}
+#buoi7 .owl-nav { position:absolute; left:0px; top:40%; width:100%; }
+#buoi7 .owl-nav [class*='owl-'] {
+	font-size:60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: #fff
+}
+
+#buoi7 .owl-nav .owl-next{ position:absolute; right:5%;}
+#buoi7 .owl-nav .owl-prev{ position:absolute; left:5%;}
+#buoi7 .owl-nav [class*='owl-']:hover {
+      background:none;border: none;
+      color:yellow;
+      text-decoration: none; }
+
+#contact{
+	width: 100%;min-height: 900px; padding-top: 80px; background-color:#8FE2FF
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+.vien-chan{
+	padding-bottom: 25px;border-bottom: 1px solid #6A6A6A;
+}
+.text-den{
+	color: black
+}
+.bo-goc{
+	border-radius: 8px;
+}
+.shadow-pop-tr {
+	-webkit-animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+	        animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2023-7-31 8:16:10
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-pop-tr
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-pop-tr {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
+@keyframes shadow-pop-tr {
+  0% {
+    -webkit-box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+            box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    -webkit-transform: translateX(0) translateY(0);
+            transform: translateX(0) translateY(0);
+  }
+  100% {
+    -webkit-box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+            box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    -webkit-transform: translateX(-8px) translateY(8px);
+            transform: translateX(-8px) translateY(8px);
+  }
+}
